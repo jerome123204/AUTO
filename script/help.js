@@ -27,7 +27,7 @@ module.exports.run = async function({
       let end = start + pages;
       let helpMessage = ` ⋆☾⋆⁺₊✧𝐌𝐘 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓✩ ♬ ₊.:\n\n`;
       for (let i = start; i < Math.min(end, commands.length); i++) {
-        helpMessage += `\t${i + 1}. ⋆☾⋆⁺₊✧ ${prefix}${commands[i]} ✩ ♬ ₊.\n`;
+        helpMessage += `\t${i + 1}. ⋆☾⋆⁺₊✧ ${prefix}${commands[i]} ✩ ♬ ₊\n`;
       }
       helpMessage += '˖ ࣪ ᪥𝐓𝐇𝐄 𝐄𝐕𝐄𝐍𝐓 𝐋𝐈𝐒𝐓𐀔 𓂃:\n\n';
       eventCommands.forEach((eventCommand, index) => {
@@ -42,7 +42,7 @@ module.exports.run = async function({
       let end = start + pages;
       let helpMessage = ` ⋆☾⋆⁺₊✧𝐌𝐘 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓✩ ♬ ₊.:\n\n`;
       for (let i = start; i < Math.min(end, commands.length); i++) {
-        helpMessage += `\t${i + 1}. ⋆☾⋆⁺₊✧ ${prefix}${commands[i]} ✩ ♬ ₊.\n`;
+        helpMessage += `\t${i + 1}. ⋆☾⋆⁺₊✧ ${prefix}${commands[i]} ✩ ♬ ₊\n`;
       }
       helpMessage += '˖ ࣪ ᪥𝐓𝐇𝐄 𝐄𝐕𝐄𝐍𝐓 𝐋𝐈𝐒𝐓𐀔 𓂃:\n\n';
       eventCommands.forEach((eventCommand, index) => {
