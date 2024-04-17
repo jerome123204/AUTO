@@ -7,7 +7,7 @@ module.exports.config = {
   name: "pin",
   version: "1.4",
   hasPermission: 0,
-  credits: "Hazeyy",
+  credits: "Hazeyy cmd | replaced the api into jerome api",
   description: "( 𝙿𝚒𝚗𝚝𝚎𝚛𝚎𝚜𝚝 )",
   commandCategory: "𝚗𝚘 𝚙𝚛𝚎𝚏𝚒𝚡",
   usages: "( 𝚂𝚎𝚊𝚛𝚌𝚑 𝙸𝚖𝚊𝚐𝚎𝚜 𝚘𝚗 𝙿𝚒𝚗𝚝𝚎𝚛𝚎𝚜𝚝 )",
